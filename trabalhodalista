@@ -1,0 +1,12 @@
+listatelefonica=['lucas 55 32 988891567','pedro 55 32 974632122','gabriel 55 32 917213231','joao 55 32 985125342']
+
+listatelefonica.append(input("insira um novo numero numero"))
+for b in range(len(listatelefonica)):
+    print(listatelefonica[b])
+
+listatelefonica[3]=input("edit esse numero telefonico")
+
+listatelefonica.pop(0)
+
+for b in range(len(listatelefonica)):
+    print(listatelefonica[b])
